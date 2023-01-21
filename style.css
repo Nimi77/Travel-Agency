@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100%;
+    background-color: #fcfcfc;
+    color: #020a44;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 8% 0 8%;
+}
+.logo{
+    position: relative;
+    cursor:pointer;
+}
+.logo span{
+    color: #1976f1;
+}
+nav{
+    display: flex;
+    font-size: 15px;
+}
+nav ul{
+    margin-right:12rem;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+    font-weight: bold;
+}
+nav ul  .active{
+    color: #003C6F!important;
+}
+.btn{
+    text-decoration: none;
+    background-color: #1976f1;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.hero-text {
+    display: flex;
+    margin:4rem 8% 4rem 8%;
+}
+.hero-text img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.hero-text img:nth-child(1){
+    position: relative;
+    box-shadow:  13px 13px 80px #cacaca,
+    -13px -13px 80px #ffffff;
+}
+.hero-text img:nth-child(2){
+   position: absolute;
+   margin: 10% -12%;
+}
+.text{
+    margin:3rem 0 0 14rem ;
+    width:40%;
+}
+.text a{
+    text-decoration: none;
+    color:#003C6F;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text h2{
+    font-size: 36px;
+    margin-top: 6px;
+}
+.text p{
+    line-height: 22px;
+    font-size: 14px;
+    margin: 20px 0 34px;
+}
+.text .start{
+    color:white;
+    background-color: #1976f1;
+    text-align: center;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 2px solid #1976f1;
+}
+.main{
+    background-color: #ffff;
+    height:30%;
+}
