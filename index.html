@@ -6,48 +6,412 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TripGoal</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <section class="hero">
+    <section class="hero" id="home">
       <header>
-        <div class="logo">
-            <h2><span>Trip</span>Goal&#8482;</h2>
-        </div>
-        <nav>
-            <ul>
-              <li class="active"><a href="#"></a>Home</li>
-              <li><a href="#"></a>About</li>
-              <li><a href="#"></a>Packages</li>
-              <li><a href="#"></a>Contact Us</li>
-              <li><a href="#"></a>FAQ</li>
-            </ul>
-            <a href="#" class="btn">Register</a>
-          </nav>
+        <nav class="navbar">
+          <h2 class="logo"><span>Trip</span>Goal<span style="font-size:x-large;color:#0442B5">.</span></h2>
+          <ul class="navlinks">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#tour">Tour</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li class="btn"><a href="#" >Register</a></li> 
+          </ul>
+          <div class="hamb">
+            <span class="fa-solid fa-bars"></span>
+          </div>
+        </nav>
       </header>
       <div class="hero-text">
         <div class="image">
-            <img src="./Image/pexels-tom-fisk-2169857.jpg" alt="" width="380px" height="420px">
-            <img src="./Image/pexels-christian-heitz-842711.jpg" alt="" width="250px"  height="300px">
+          <img
+            src="/Image/pexels-tom-fisk-2169857.jpg"
+            alt=""
+            width="390px"
+            height="420px"
+          />
+          <img
+            src="/Image/pexels-christian-heitz-842711.jpg"
+            alt=""
+            width="280px"
+            height="300px"
+          />
         </div>
         <div class="text">
-            <a href="#">Book Now</a>
-            <h2>Tour Around The World With TripGoal</h2>
-            <p>Thinking of taking a break from every day's busy life?, Planning
-                to go out of the country with your loved ones to have fun and
-                quality time in a cost effective way?
-            </p>
-            <button class="start">Start Now</button>
+          <a href="#">Book Now</a>
+          <h2>Enjoy Your Desired Trip<br>With TripGoal</h2>
+          <p>
+            Thinking of taking a break from every day's busy life?, Planning to
+            go out of the country with your loved ones to have fun and quality
+            time in a cost effective way?
+          </p>
+          <button class="start">Start Now</button>
         </div>
       </div>
     </section>
-    <div class="main">
-
+      
+    
+    <!-- Tour Section -->
+    <div class="main" id="tour">
+      <div class="main-heading">
+        <h2>Most Popular Tours</h2>
+        <p style="line-height: 24px;">Naturally top-notch when it comes to luxury travel planning, tour<br> around the world with your friends and family.</p>
+      </div>
+      <div class="tour-list">
+        <div class="first-row">
+          <div class="tour one">
+            <img  src="https://img.freepik.com/premium-photo/dinosaur-statue-dubai-mall_78361-13813.jpg" width="320px" height="230px">
+            <div class="tour-text">
+              <h4>Dubia Museum</h4>
+              <p>Showcasing Dubai's history and its original heritage, you can get a glimpse of everyday life before the discovery of oil.</p>
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <div class="tour two">
+            <img  src="https://img.freepik.com/free-photo/aerial-view-wood-waterfront-pavilion-koh-si-chang-island-thailand-asdang-bridge_335224-716.jpg?t=st=1676644440~exp=1676645040~hmac=46128603bb309dea757698b812d80ffe5e01d044b7f7c1038428bd83a4a5b8a9"  
+                  width="320px" height="230px" alt="Free photo aerial view of wood waterfront pavilion in koh si chang island, thailand. asdang bridge.">
+            <div class="tour-text">
+              <h4>Koh si chang island, Thailand</h4>
+              <p>One of the perfect place to relax, even for (or especially, I should say!) solo female travelers.</p>
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="second-row">
+          <div class="tour three">
+            <img  src="https://img.freepik.com/free-photo/toronto-city-skyline-view-with-park-urban-buildings_649448-544.jpg?t=st=1676643529~exp=1676644129~hmac=86f4b696dade57404077f3269bde46f56c8511659d7635a7aecd64ee4c2bfad3"  
+                   width="320px" height="230px" alt="Toronto">
+            <div class="tour-text">
+              <h4>Toronto, Canada</h4>
+              <p> It's home to a dynamic mix of tourist attractions from museums and galleries to the world-famous CN Tower.</p>
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+          <div class="tour four">
+            <img  src="https://img.freepik.com/free-photo/new-business-district-garibaldi_268835-740.jpg?t=st=1676644173~exp=1676644773~hmac=d7930c3a59d06c975ee4cf5ad7ecfb51fc1f59c44a8a83c63357ab35f2d7df31"  
+                   width="320px" height="230px" alt="Free photo new business district garibaldi.">
+            <div class="tour-text">
+              <h4>Garibaldi Oregon, Tillamook </h4>
+              <p>Visit Garibaldi Museum, a wonderful place to spend 2 hours in a town of less than 1000 people.</p>
+              <a href="#" class="button">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="m-button">More Tour</a>
     </div>
+
+    <!-- About Section -->
+    <section class="about-us" id="about">
+      <div class="container">
+        <div class="details">
+          <h5 style="color:#0442B5; text-transform: uppercase;" >Who are we?</h5>
+          <h2>Let Us Create Your Best Days Ever By Travelling With Us!</h2>
+          <p>TripGoal was founded in 2022 by Mr Bernard Ziah, CEO of Rael International Company
+            which is among the best company in the Africa. TripGoal is currently the
+            third highest travelling agency.The agency offers travel consulting,
+            hotel reservations, bespoke travel packages etc.
+          </p>
+          <p>TripGoal also offers credit facilities with flexible travel payment plans, where the customer can 
+            pay 25% upfront, and structure the rest of the payment.
+          </p>
+        </div>
+        <div class="image">
+          <div class="image-bottom">
+            <img
+            src="/Image/pexels-nicolas-2925146.jpg"
+            alt=""
+            width="310px"
+            height="320px"
+            />
+          </div>
+          <div class="image-top">
+            <img
+            src="https://img.freepik.com/free-photo/leisure-beautiful-health-garden-landscape_1203-4856.jpg?size=626&ext=jpg&uid=R21615174&ga=GA1.1.1770743697.1668636163&semt=sph"
+            alt=""
+            width="370px"
+            height="365px"
+           />
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Packages Section -->
+    <div class="packages" id="packages">
+      <div class="p-packages">
+        <h2>Trending Packages</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>eiusmod tempor incididunt</p>
+      </div>
+      <div class="row">
+        <div class="pcg-1">
+          <div class="first-pcg destination">
+           <img src="https://img.freepik.com/premium-photo/rialto-bridge-sunrise-one-most-visited-sights-venice-italy_400112-1086.jpg?w=740" alt="The rialto bridge at sunrise one of the most visited sights of venice italy">
+            <div class="img-caption">
+              <h3>Venice </h3>
+              <h5>Rialto Bridge Italy</h5>
+              <ul class="destination-rating">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+                <li>(34 reviews)</li>
+              </ul>
+            </div>
+            <div class="pcg-box">
+              <h6>250 Tours</h6>
+            </div>
+          </div>
+          <div class="second-pcg destination">
+            <img src="https://img.freepik.com/free-photo/cityscape-singapore-city-skyline_74190-6349.jpg?w=740&t=st=1676824425~exp=1676825025~hmac=e7f8522945c9941679c01e72592798a55cf6f64060100be4ad96a26f1a0acd8d" alt="Cityscape in Singapore" />
+            <div class="img-caption">
+              <h3>Grand Asia</h3>
+              <h5>Singapore Cityscape</h5>
+              <ul class="destination-rating">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li>(36 reviews)</li>
+              </ul>
+            </div>
+            <div class="pcg-box">
+              <h6>436 Tours</h6>
+            </div>
+          </div>
+        </div>
+        <div class="pcg-2">
+          <div class="third-pcg destination">
+           <img src="https://img.freepik.com/free-photo/wooden-pier-fancy-orange-sunset_146671-18868.jpg?size=626&ext=jpg" alt="beautiful old city limmat river in zurich, switzerland">
+            <div class="img-caption">
+              <h3>Switzerland</h3>
+              <h5>Limmat River Zurich</h5>
+              <ul class="destination-rating">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li>(58 reviews)</li>
+              </ul>
+            </div>
+            <div class="pcg-box">
+              <h6>600 Tours</h6>
+            </div>
+          </div>
+          <div class="forth-pcg destination">
+            <img src="https://img.freepik.com/free-photo/asian-woman-wearing-chinese-traditional-dress-ban-rak-thai-village-mae-hong-son-province-thailand_335224-1169.jpg?w=740&t=st=1676831180~exp=1676831780~hmac=3963e8b378e2c7db12a66026be20efdf5e5cee196a0e1483039374b6b5295857" alt="Ban rak thai village in mae hong son province, thailand" />
+            <div class="img-caption">
+              <h3>Thailand</h3>
+              <h5>Ban Rak Thai Village</h5>
+              <ul class="destination-rating">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-half-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li>(25 reviews)</li>
+              </ul>
+            </div>
+            <div class="pcg-box">
+              <h6>230 Tours</h6>
+            </div>
+          </div>
+          <div class="fifth-pcg destination">
+            <img src="https://img.freepik.com/free-photo/amphitheater-fortaleza-san-felipe-puerta-plata-dominican-republic_333098-125.jpg?t=st=1676832128~exp=1676832728~hmac=8fc8e1b00ba25452f2c4f0a7756b19bf7e6b1b9a4320da60f810b8d61255b9b5" />
+            <div class="img-caption">
+              <h3>Spain</h3>
+              <h5>City of Puerto Plata</h5>
+                <ul class="destination-rating">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li>(43 reviews)</li>
+              </ul>
+            </div>
+            <div class="pcg-box">
+              <h6>320 Tours</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Choose Section -->
+    <div class="choose-section">
+      <div class="c-container">
+        <div class="left-side">
+          <div class="four-box">
+            <div class="col one">
+              <img src="https://cutesolution.com/html/tulip/assets/img/24-hours.svg">
+              <h3>24 Hour Support</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus doloremque</p>
+            </div>
+            <div class="col two">
+              <img src="	https://cutesolution.com/html/tulip/assets/img/air-ticketing.svg">
+              <h3>Safety & Security</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus doloremque</p>
+            </div>
+            <div class="col three">
+              <img src="	https://cutesolution.com/html/tulip/assets/img/cityscape.svg">
+              <h3>Hotel Accomodations</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus doloremque</p>
+            </div>
+            <div class="col four">
+              <img src="	https://cutesolution.com/html/tulip/assets/img/tour.svg">
+              <h3>Airline Ticket</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem natus doloremque</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="choose-text">
+            <h2>WHY CHOOSE US?</h2>
+            <p>We view ourselves as a vital part of each of our client’s travelling experience and know 
+              our success hinges on them being happy and enjoying their tour.  We have helped and provided great Services
+              to many of our clients for years and attribute our high client retention rate to our 
+              services and consistent dedication to their ongoing trip.
+            </p>
+            <a href="#" class="c-button">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section" id="contact-us">
+      <h2>Contact Us</h2>
+      <div class="container">
+        <!-- Contact list -->
+        <div class="contact">
+          <div class="cl call-us">
+            <h3><span class="fa-solid fa-phone"></span>Call Us</h3>
+            <span>(+234)810 435 890, (+234)803 666 783</span>
+          </div>
+          <div class="cl location">
+            <h3><span class="fa-solid fa-location-dot"></span>Location</h3>
+            <span>123 Rock Street, 21 Avenue,Lagos State.</span>
+          </div>
+          <div class="cl biz-hour">
+            <h3><span class="fa-solid fa-clock"></span>Business Hour</h3>
+            <span>Mon-Fri...8am-6pm,Sat,Sun....Closed</span>
+          </div>
+        </div>
+        <!-- Form list -->
+        <div class="form">
+          <div class="column">
+            <div class="list email">
+              <label for="email">Email</label>
+              <input type="email" placeholder="Enter a valid email address" name="email" required>
+            </div>
+            <div class="list name">
+              <label for="name">Name</label>
+              <input type="text" placeholder="Enter your name" id="name" required>
+            </div>
+          </div>
+          <div class="list address">
+            <label for="address">Address</label>
+            <input type="text" placeholder="Enter your address" id="address">
+          </div>
+          <div class="list message">
+            <label for="message">Message</label>
+            <textarea type="text" placeholder="Enter your message.." id="message" required></textarea>
+          </div>
+          <div class="submit-btn">
+            <a class="btn">Submit</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="top-area">
+        <div class="p-trips">
+          <h3>Popular Trips</h3>
+          <ul class="list-menu">
+            <li><a href="#"><span data-hover="South Island, New Zealand">
+              South Island, New Zealand</span></a>
+            </li>
+            <li><a href="#"><span data-hover=" Marrakesh, Morocco">
+              Marrakesh, Morocco</span></a>
+            </li>
+            <li><a href="#"><span data-hover="Bora Bora, French Polynesia">
+              Bora Bora, French Polynesia</span></a>
+            </li>
+            <li><a href="#"><span data-hover="Laucala Island Resort, Fiji">
+              Laucala Island Resort, Fiji</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="Q-links">
+          <h3>Quick Links</h3>
+          <ul class="list-menu">
+            <li><a href="#"><span data-hover="Brand Story">
+                  Brand Story</span></a>
+            </li>
+            <li><a href="#"><span data-hover="Travel Blog & Tips">
+                 Travel Blog & Tips</span></a>
+            </li>
+            <li><a href="#"><span data-hover="Our Partner">
+                Our Partner</span></a>
+            </li>
+            <li><a href="#"><span data-hover=" Best Service">
+                Best Service</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="O-links">
+          <h3>Other Links</h3>
+          <ul class="list-menu">
+            <li><a href="#"><span data-hover="Terms of Services">
+                  Terms of Services</span></a>
+            </li>
+            <li><a href="#"><span data-hover="Privacy Policy">
+                 Privacy Policy</span></a>
+            </li>
+            <li><a href="#"><span data-hover="Faq Questions">
+                 Faq Questions</span></a>
+            </li>
+            <li><a href="#"><span data-hover="General Terms">
+                General Terms</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Subscribe To Our Newsletter</h3>
+          <ul class="newsletter-box">
+            <li><input class="input-field" type="text" 
+              placeholder="Enter your email" /></li>
+            <li><input type="button" value="Submit" /></li>
+          </ul>
+        </div>
+      </div><hr>
+      <div class="bottom-area">
+        <div class="container">
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="bottom-text">
+            <span class="copyright_text">Copyright © 2023 - All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+    
   </body>
 </html>
