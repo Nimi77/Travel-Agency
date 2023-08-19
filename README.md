@@ -1,4 +1,4 @@
-A travel agency website. The tourism company name is TripGoal
+A travel agency website. The tourism company's name is TripGoal
 ### TripGoal
 
 TripGoal is a website created for luxury travel planning and for users to get many choices of where to tour with thier friends and family.
@@ -14,3 +14,12 @@ What did you learn while building this project? What challenges did you face and
 - Worked on a little bit on javascipt for the hamb for small screen devices
 - Hard a hard time trying to work on the responsiveness for mobile devices.
 - Kindly view on PC or tablet only.
+
+## Link To Page
+
+Click the link below
+
+```bash
+https://nimi77.github.io/Travel-Agency/
+```
+
