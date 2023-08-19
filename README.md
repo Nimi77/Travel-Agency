@@ -1,4 +1,4 @@
-
+A travel agency website. The tourism company name is TripGoal
 ### TripGoal
 
 TripGoal is a website created for luxury travel planning and for users to get many choices of where to tour with thier friends and family.
