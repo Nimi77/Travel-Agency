@@ -1,23 +1,20 @@
-A travel agency website. The tourism company's name is TripGoal
 ### TripGoal
 
-TripGoal is a website created for luxury travel planning and for users to get many choices of where to tour with thier friends and family.
+TripGoal is a website designed to help users plan luxury travel and gives them a wide range of options for destinations to visit with their loved ones.
 
-The agency offers travel consulting, hotel reservations, bespoke travel packages etc.
+The company provides hotel bookings, custom travel packages, and travel advice, among other services.
 
 
 ### Lessons Learned
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-- Practiced more on margins and paddings
-- Worked on a little bit on javascipt for the hamb for small screen devices
-- Hard a hard time trying to work on the responsiveness for mobile devices.
-- Kindly view on PC or tablet only.
+- Increased my practice with padding and margins
+- I spent some time working on the JavaScript for the hamb on small screen devices.
+- Improving responsiveness for mobile devices is challenging.
+Please only view on a computer or tablet.
 
 ## Link To Page
 
-Click the link below
+Select the link below.
 
 ```bash
 https://nimi77.github.io/Travel-Agency/
